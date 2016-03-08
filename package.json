@@ -1,0 +1,23 @@
+{
+  "title": "Tab Switch",
+  "name": "tabswitch",
+  "version": "0.0.1",
+  "id": "tabswitch@kosmodrey",
+  "description": "Combo key for quick switching between two tabs.",
+  "main": "index.js",
+  "author": "Kosmodrey <kosmodrey@yandex.ru>",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "VUL",
+  "keywords": [
+    "jetpack", "tab", "combo", "switch"
+  ],
+  "preferences": [{
+    "name": "combo",
+    "title": "Combo",
+    "type": "string",
+    "value": "control-`"
+  }]
+}
